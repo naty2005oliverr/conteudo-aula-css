@@ -1,0 +1,7 @@
+body {
+    background-image: url(/Aula\ 1/img/carro.jpg);
+    background-repeat: no-repeat;
+    color: rgb(240, 248, 255);
+    background-size: cover ;
+    background-attachment: fixed ;
+}
