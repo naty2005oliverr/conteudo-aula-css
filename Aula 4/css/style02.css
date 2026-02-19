@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(239, 239, 189);
+}
+
+.link:link {
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+}
+
+.link:hover {
+    background-color: rgb(176, 30, 79);
+    color: rgb(245, 100, 124);
+}
+
+.link:active {
+    background-color:green ;
+    color: chartreuse;
+}
+
+.link:visited {
+    background-color: rgb(117, 10, 129);
+    color: rgb(156, 69, 237);
+}
+
+.link-btn:link, .link-btn:visited {
+/* background-color: rgb(6, 63, 18); */
+background-color: transparent;
+border: 3px solid rgb(3, 63, 11);
+color: rgb(0, 0, 0);
+padding: 20px 80px;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+text-align: center;
+display: inline-block;
+}
+
+.link-btn:hover, .link-btn:active {
+    background-color: rgb(6, 134, 6);
+    color: #e5e1e1;
+    transition: .5s;
+}

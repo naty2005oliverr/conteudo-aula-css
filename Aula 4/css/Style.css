@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(199, 241, 241);
+}
+
+.bx-instagram {
+    color: black;
+    font-size: 200px;
+}
+
+.bx-tiktok{
+    color: black;
+    font-size: 150px;
+}
+
+.bx-user {
+    color: blue;
+    font-size: 150px;
+}
+
+.bx-cat {
+    color: palevioletred;
+    font-size: 150px;
+}
+
+.bx-hand-rock {
+    color: blueviolet;
+    font-size: 100px;
+}
