@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(233, 152, 94);
+    justify-items: center;
+}
+
+.el1 {
+    background-color: rgb(177, 109, 242);
+    width: 500px;
+}
+
+.ex1 {
+    width: 500px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: rgb(125, 125, 235);
+}
