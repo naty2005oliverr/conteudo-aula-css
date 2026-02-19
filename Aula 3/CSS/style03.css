@@ -1,0 +1,22 @@
+body {
+    background-color:pink ;
+}
+
+.ex1 {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: cornflowerblue;
+}
+
+.ex2 {
+    text-shadow: 150px 0px rgba(255, 0, 0, 0.622);
+    text-decoration-line: overline;
+    text-decoration-style: double;
+    text-decoration-color: rgb(22, 10, 129);
+}
+
+.ex3 {
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: darkred;
+}
