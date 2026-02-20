@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(12, 189, 27);
+}
+
+/* Exemplo de Flex-Itens Order */
+.ex1 {
+    display: flex;
+    gap: 30px;
+    background-color: rgb(255, 238, 0);
+}
+
+.ex1 div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(71, 85, 238);
+    color: white;
+}
+
+/* Exemplo de Flex-grow */
+.ex2 {
+    display: flex;
+    gap: 30px;
+    background-color: rgb(255, 238, 0);
+}
+
+.ex2 div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(71, 85, 238);
+    color: white;
+}
+
+/* Exemplo de Flex-shrink */
+.ex3 {
+    display: flex;
+    gap: 30px;
+    background-color: rgb(255, 238, 0);
+}
+
+.ex3 div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(71, 85, 238);
+    color: white;
+}
+
+/* Exemplo de Flex-basis */
+.ex4 {
+    display: flex;
+    gap: 30px;
+    background-color: rgb(255, 238, 0);
+}
+
+.ex4 div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(71, 85, 238);
+    color: white;
+}
+
+/* Exemplo de aling-self: center */
+.ex5 {
+    display: flex;
+    height: 200px;
+    gap: 30px;
+    background-color: rgb(255, 238, 0);
+}
+
+.ex5 div {
+    width: 100px;
+    background-color: rgb(71, 85, 238);
+    color: white;
+}
+
+.ex5 #it3 {
+    align-self: center;
+    height: 100px;
+    background-color: azure;
+    color: black;
+}
+
+/* Exemplo de aling-self: center */
+.ex6 {
+    display: flex;
+    height: 200px;
+    gap: 30px;
+    background-color: rgb(255, 238, 0);
+}
+
+.ex6 div {
+    width: 100px;
+    background-color: rgb(71, 85, 238);
+    color: white;
+}
+
+.ex6 #item2 {
+    align-self: flex-start;
+    height: 100px;
+    background-color: azure;
+    color: black;
+}
+
+.ex6 #item3 {
+    align-self: center;
+    height: 100px;
+    background-color: azure;
+    color: black;
+}
+
+.ex6 #item4 {
+    align-self: flex-end;
+    height: 100px;
+    background-color: azure;
+    color: black;
+}
