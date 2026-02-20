@@ -1,0 +1,127 @@
+body {
+    background-color: rgb(231, 113, 204);
+}
+
+
+/* Exemplo de algin-itens: center */
+.ex1 {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    gap: 30px;
+    background-color: rgb(165, 49, 138);
+}
+
+.ex1 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: pink;
+    color: rgb(54, 5, 14);
+}
+
+/* Exemplo de algin-itens: flex-start */
+.ex2 {
+    display: flex;
+    height: 200px;
+    align-items: flex-start;
+    gap: 30px;
+    background-color: rgb(165, 49, 138);
+}
+
+.ex2 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: pink;
+    color: rgb(54, 5, 14);
+}
+
+/* Exemplo de algin-itens: flex-end*/
+.ex3 {
+    display: flex;
+    height: 200px;
+    align-items: flex-end;
+    gap: 30px;
+    background-color: rgb(165, 49, 138);
+}
+
+.ex3 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: pink;
+    color: rgb(54, 5, 14);
+}
+
+/* Exemplo de algin-itens: stretch*/
+.ex4 {
+    display: flex;
+    height: 200px;
+    align-items: stretch;
+    gap: 30px;
+    background-color: rgb(165, 49, 138);
+}
+
+.ex4 div {
+    width: 100px;
+    text-align: center;
+    background-color: pink;
+    color: rgb(54, 5, 14);
+}
+
+/* Exemplo de algin-content: center*/
+.ex5 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    align-content: center;
+    gap: 30px;
+    background-color: rgb(165, 49, 138);
+}
+
+.ex5 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: pink;
+    color: rgb(79, 10, 22);
+}
+
+/* Exemplo de algin-content: space-between*/
+.ex6 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    align-content: space-between;
+    gap: 30px;
+    background-color: rgb(47, 3, 37);
+}
+
+.ex6 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: pink;
+    color: rgb(54, 5, 14);
+}
+
+/* Exemplo de algin-content: center*/
+.ex7 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgb(47, 3, 37);
+}
+
+.ex7 div {
+    width: 100px;
+    height: 100px;
+    align-content: center;
+    text-align: center;
+    background-color: pink;
+    color: rgb(54, 5, 14);
+}
