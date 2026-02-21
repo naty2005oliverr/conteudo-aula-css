@@ -1,0 +1,185 @@
+body {
+    background-color: cornsilk;
+}
+
+/* exemplo de grid-templete-column: auto auto auto */
+.ex1 {
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+    grid-template-columns:auto auto auto;
+   /*  grid-template-columns: repeat(3, auto); */
+    background-color: cornflowerblue;
+}
+
+.ex1 div {
+    border: 1px solid rgb(50, 95, 129);
+    height: 30px;
+    background-color: aqua;
+    align-content: center;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* exemplo de grid-templete-column com valores misturados*/
+.ex2 {
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+    grid-template-columns: 180px 80px auto;
+    background-color: cornflowerblue;
+}
+
+.ex2 div {
+    border: 1px solid rgb(50, 95, 129);
+    height: 30px;
+    background-color: aqua;
+    align-content: center;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* exemplo de grid-templete-column com valores fracionados*/
+.ex3 {
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+ /*    grid-template-columns: repeat(3, 1fr); */
+    background-color: cornflowerblue;
+}
+
+.ex3 div {
+    border: 1px solid rgb(50, 95, 129);
+    height: 30px;
+    background-color: aqua;
+    align-content: center;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* exemplo de grid-templete-column com minmax*/
+.ex4 {
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+    grid-template-columns:minmax(180px, 1fr) 150px 150px;
+    background-color: cornflowerblue;
+}
+
+.ex4 div {
+    border: 1px solid rgb(50, 95, 129);
+    height: 30px;
+    background-color: aqua;
+    align-content: center;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* exemplo de grid-templete-column com valores fixos*/
+.ex5 {
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 80px 200px;
+    background-color: cornflowerblue;
+}
+
+.ex5 div {
+    border: 1px solid rgb(50, 95, 129);
+    background-color: aqua;
+    align-content: center;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+}
+
+/* exemplo de grid column gap */
+.ex6 {
+    display: grid;
+    padding: 5px;
+    column-gap: 20px
+    grid-template-columns: auto auto auto;
+    background-color: cornflowerblue;
+}
+
+.ex6 div {
+    border: 1px solid rgb(50, 95, 129);
+    background-color: aqua;
+    align-content: center;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+}
+
+/* exemplo de grid column gap */
+.ex6 {
+    display: grid;
+    padding: 5px;
+    column-gap: 20px;
+    grid-template-columns: auto auto auto;
+    background-color: cornflowerblue;
+}
+
+.ex6 div {
+    border: 1px solid rgb(50, 95, 129);
+    background-color: aqua;
+    align-content: center;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+}
+
+/* exemplo de grid row-gap */
+.ex7 {
+    display: grid;
+    padding: 5px;
+    row-gap: 40px;
+    grid-template-columns: auto auto auto;
+    background-color: cornflowerblue;
+}
+
+.ex7 div {
+    border: 1px solid rgb(50, 95, 129);
+    background-color: aqua;
+    align-content: center;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+}
+
+/* exemplo de grid-gap */
+.ex8 {
+    display: grid;
+    padding: 5px;
+    gap: 40px;
+    grid-template-columns: auto auto auto;
+    background-color: cornflowerblue;
+}
+
+.ex8 div {
+    border: 1px solid rgb(50, 95, 129);
+    background-color: aqua;
+    align-content: center;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* exemplo de grid gap */
+.ex9 {
+    display: grid;
+    padding: 5px;
+    gap: 10px 50px;
+    grid-template-columns: auto auto auto;
+    background-color: cornflowerblue;
+}
+
+.ex9 div {
+    border: 1px solid rgb(50, 95, 129);
+    background-color: aqua;
+    align-content: center;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+}
