@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(207, 244, 171);
+}
+
+/* Exemplo de grid-column-start e grid-column-end */
+.ex1 {
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    background-color: rgb(111, 221, 0);
+    gap: 0px 10px;
+    justify-content: center;
+    align-content: space-evenly;
+}
+
+.ex1 div {
+    height: 100px;
+    background-color: rgb(65, 119, 11);
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+
+.itm1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+/* Exemplo de grid-row-start e grid-row-end */
+.ex2 {
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    background-color: rgb(111, 221, 0);
+    gap: 0px 10px;
+    justify-content: center;
+    align-content: space-evenly;
+}
+
+.ex2 div {
+    background-color: rgb(65, 119, 11);
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+
+#itm1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+/* Exemplo de grid-row-start e grid-row-end, grid-row-end grid-column-start grid-column-end*/
+.ex3 {
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    background-color: rgb(111, 221, 0);
+    gap: 0px 10px;
+    justify-content: center;
+    align-content: space-evenly;
+}
+
+.ex3 div {
+    background-color: rgb(65, 119, 11);
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+
+.ex3 div img {
+    width: 100%;       /* Ocupa toda a largura do quadrado */
+    height: 100%;      /* Ocupa toda a altura do quadrado */
+    object-fit: cover; /* Faz a imagem preencher o espaço sem distorcer (corta as sobras) */
+    border-radius: 5px; /* Opcional: deixa as pontas da imagem arredondadas */
+}
+
+#item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
